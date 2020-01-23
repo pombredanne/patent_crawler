@@ -1,0 +1,97 @@
+
+pre.js-oxpre {
+  font-family:monospace;
+  background-color:#F0F0F0;
+  color:black;
+  border:1px solid #C0C0C0;
+  width:100%;
+  font-size:12px;
+  position:relative;
+  overflow:auto;
+}
+#app-container .modal-content pre{
+  max-height: 500px;
+}
+#app-container .col-jobs-params pre {
+  max-height:300px;
+}
+
+#app-container .modal-content textarea {
+  height:500px;
+}
+
+table.datatable {
+  table-layout: fixed !important;
+}
+table.datatable td {
+  word-wrap:break-word;
+}
+
+div.dataTables_paginate ul {
+  margin:0;
+}
+div.dataTables_info {
+  float:left;
+  padding:5px;
+}
+
+.container {
+  width:inherit;
+}
+
+.jqstooltip {
+  box-sizing: content-box;
+}
+
+.stat {
+  margin-left: 50px;
+  display: inline;
+}
+
+
+.spin {
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  -o-animation: spin 1s infinite linear;
+  animation: spin 1s infinite linear;
+}
+
+.js-datatable-filters .form-group input[type=text] {
+    width:140px;
+}
+
+.js-workers-modal-content table {
+    word-wrap:break-word;
+    table-layout: fixed;
+    font-size:12px;
+}
+.js-workers-modal-content .time {
+  width:80px;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

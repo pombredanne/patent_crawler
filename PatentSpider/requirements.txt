@@ -1,0 +1,8 @@
+redis==2.10.5
+mrq
+requests
+lxml
+sqlalchemy
+psycopg2-binary
+simhash
+fake_useragent
